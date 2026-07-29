@@ -1,0 +1,35 @@
+[
+  {"nombre":"Colibrí","categoria":"cadenas","descripcion":"Cadena fina bañada en oro con dije de colibrí, símbolo de ligereza.","precio":"S/ 85","intencion":null},
+  {"nombre":"Amatista Luna","categoria":"cadenas","descripcion":"Cadena con cuarzo amatista para acompañar la calma y la intuición.","precio":"S/ 110","intencion":"calma"},
+  {"nombre":"Raíz Dorada","categoria":"cadenas","descripcion":"Cadena tejida con acabado dorado mate, inspirada en enredaderas.","precio":"S/ 78","intencion":null},
+  {"nombre":"Citrino Sol","categoria":"cadenas","descripcion":"Cadena con cuarzo citrino, piedra asociada a la abundancia.","precio":"S/ 115","intencion":"abundancia"},
+  {"nombre":"Hoja de Otoño","categoria":"cadenas","descripcion":"Dije en forma de hoja con textura natural grabada a mano.","precio":"S/ 72","intencion":null},
+  {"nombre":"Cuarzo Rosa Corazón","categoria":"cadenas","descripcion":"Cuarzo rosa tallado en forma de corazón, piedra del amor propio.","precio":"S/ 120","intencion":"amor"},
+  {"nombre":"Pluma Ligera","categoria":"cadenas","descripcion":"Cadena delicada con dije de pluma en acabado envejecido.","precio":"S/ 68","intencion":null},
+  {"nombre":"Ojo de Tigre","categoria":"cadenas","descripcion":"Cadena con cuarzo ojo de tigre, para protección y fuerza.","precio":"S/ 118","intencion":"proteccion"},
+
+  {"nombre":"Gotas de Rocío","categoria":"aretas","descripcion":"Aretes colgantes con detalle de perla natural.","precio":"S/ 65","intencion":null},
+  {"nombre":"Amatista Gota","categoria":"aretas","descripcion":"Aretes con cuarzo amatista tallado en gota.","precio":"S/ 95","intencion":"calma"},
+  {"nombre":"Hojas de Sauce","categoria":"aretas","descripcion":"Aretes largos con textura de hojas bañados en oro.","precio":"S/ 70","intencion":null},
+  {"nombre":"Cuarzo Blanco Faceta","categoria":"aretas","descripcion":"Aretes con cuarzo blanco facetado, símbolo de claridad mental.","precio":"S/ 98","intencion":"claridad"},
+  {"nombre":"Luna Creciente","categoria":"aretas","descripcion":"Aretes en forma de media luna, acabado martillado.","precio":"S/ 60","intencion":null},
+  {"nombre":"Citrino Mini","categoria":"aretas","descripcion":"Aretes pequeños con cuarzo citrino para el día a día.","precio":"S/ 88","intencion":"abundancia"},
+  {"nombre":"Trigo Dorado","categoria":"aretas","descripcion":"Aretes inspirados en espigas de trigo, textura orgánica.","precio":"S/ 58","intencion":null},
+  {"nombre":"Cuarzo Rosa Botón","categoria":"aretas","descripcion":"Aretes tipo botón con cuarzo rosa pulido.","precio":"S/ 80","intencion":"amor"},
+
+  {"nombre":"Enredadera","categoria":"manillas","descripcion":"Manilla trenzada con dije de hoja colgante.","precio":"S/ 55","intencion":null},
+  {"nombre":"Amatista Perlada","categoria":"manillas","descripcion":"Manilla combinando perlas y cuentas de amatista.","precio":"S/ 92","intencion":"calma"},
+  {"nombre":"Colibrí Dorado","categoria":"manillas","descripcion":"Manilla ajustable con dije de colibrí en dorado.","precio":"S/ 65","intencion":null},
+  {"nombre":"Citrino Cadena","categoria":"manillas","descripcion":"Manilla de cadena fina con cuentas de citrino.","precio":"S/ 98","intencion":"abundancia"},
+  {"nombre":"Nudo Infinito","categoria":"manillas","descripcion":"Manilla con dije de nudo infinito, símbolo de conexión.","precio":"S/ 62","intencion":null},
+  {"nombre":"Ojo de Tigre Cuentas","categoria":"manillas","descripcion":"Manilla de cuentas con ojo de tigre para protección diaria.","precio":"S/ 90","intencion":"proteccion"},
+  {"nombre":"Hilo Natural Dorado","categoria":"manillas","descripcion":"Manilla de hilo trenzado con dije bañado en oro.","precio":"S/ 48","intencion":null},
+  {"nombre":"Cuarzo Rosa Cuentas","categoria":"manillas","descripcion":"Manilla de cuentas de cuarzo rosa, para el autocuidado.","precio":"S/ 85","intencion":"amor"},
+
+  {"nombre":"Aro Simple Dorado","categoria":"anillos","descripcion":"Anillo fino minimalista, ideal para combinar en capas.","precio":"S/ 45","intencion":null},
+  {"nombre":"Amatista Solitario","categoria":"anillos","descripcion":"Anillo con cuarzo amatista central, montaje delicado.","precio":"S/ 105","intencion":"calma"},
+  {"nombre":"Rama Entrelazada","categoria":"anillos","descripcion":"Anillo con textura de rama, acabado mate envejecido.","precio":"S/ 58","intencion":null},
+  {"nombre":"Citrino Solitario","categoria":"anillos","descripcion":"Anillo con cuarzo citrino, para atraer abundancia.","precio":"S/ 108","intencion":"abundancia"},
+  {"nombre":"Doble Aro","categoria":"anillos","descripcion":"Anillo de dos líneas entrelazadas en acabado dorado.","precio":"S/ 50","intencion":null},
+  {"nombre":"Cuarzo Blanco Solitario","categoria":"anillos","descripcion":"Anillo con cuarzo blanco, piedra de claridad y enfoque.","precio":"S/ 100","intencion":"claridad"}
+]

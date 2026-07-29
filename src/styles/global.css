@@ -1,0 +1,232 @@
+:root{
+  --cream:#F7F2E7;
+  --cream-card:#FFFDF9;
+  --sage:#7C8A5C;
+  --sage-deep:#4E5A38;
+  --sage-pale:#E3E7D6;
+  --gold:#C29A4F;
+  --gold-pale:#EFE1C4;
+  --ink:#3A3428;
+  --ink-soft:#6B6355;
+  --line:#E4DCC8;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{
+  background:var(--cream);
+  color:var(--ink);
+  font-family:'Jost',sans-serif;
+  font-weight:400;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px;}
+.wrap-narrow{max-width:900px;margin:0 auto;padding:0 28px;}
+
+/* ---- header / nav ---- */
+.site-header{
+  padding:28px 28px 24px;
+  display:flex;align-items:center;justify-content:space-between;
+  max-width:1180px;margin:0 auto;
+  border-bottom:1px solid var(--line);
+}
+.logo-link{
+  display:flex;align-items:center;gap:10px;text-decoration:none;
+}
+.logo-link svg{width:28px;height:28px;stroke:var(--sage);flex-shrink:0;}
+.logo-text{
+  font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;
+  font-size:26px;color:var(--sage-deep);
+}
+.nav-links{display:flex;gap:30px;list-style:none;margin:0;padding:0;}
+.nav-links a{
+  text-decoration:none;font-size:13px;letter-spacing:1px;text-transform:uppercase;
+  color:var(--ink-soft);font-weight:500;
+  padding-bottom:4px;border-bottom:1px solid transparent;
+  transition:color .18s, border-color .18s;
+}
+.nav-links a:hover,
+.nav-links a.active{color:var(--sage-deep);border-color:var(--gold);}
+.nav-toggle{display:none;}
+
+@media (max-width:640px){
+  .site-header{flex-wrap:wrap;gap:14px;padding:22px 20px 18px;}
+  .nav-links{gap:18px;width:100%;justify-content:center;}
+}
+
+/* ---- generic page header block ---- */
+.page-hero{padding:56px 28px 40px;text-align:center;}
+.hummingbird{width:46px;height:46px;margin:0 auto 14px;display:block;}
+.brand{
+  font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;
+  font-size:56px;color:var(--sage-deep);letter-spacing:0.5px;margin:0;
+}
+.tagline{
+  font-size:13px;letter-spacing:3px;text-transform:uppercase;
+  color:var(--gold);margin:10px 0 22px;font-weight:500;
+}
+.divider{width:80px;height:1px;background:var(--line);margin:0 auto 22px;position:relative;}
+.divider::after{
+  content:'';position:absolute;left:50%;top:-3px;transform:translateX(-50%);
+  width:6px;height:6px;border-radius:50%;background:var(--gold);
+}
+.subtext{
+  max-width:480px;margin:0 auto;color:var(--ink-soft);
+  font-size:15px;line-height:1.7;font-weight:300;
+}
+
+/* ---- category rail ---- */
+.cat-rail{display:flex;justify-content:center;gap:28px;flex-wrap:wrap;margin:44px 0 8px;}
+.cat-item{
+  display:flex;flex-direction:column;align-items:center;gap:10px;
+  cursor:pointer;background:none;border:none;font-family:'Jost',sans-serif;padding:0;
+}
+.cat-circle{
+  width:68px;height:68px;border-radius:50%;background:var(--cream-card);
+  border:1px solid var(--line);display:flex;align-items:center;justify-content:center;
+  transition:border-color .2s, background .2s;
+}
+.cat-item.active .cat-circle,
+.cat-item:hover .cat-circle{border-color:var(--gold);background:var(--gold-pale);}
+.cat-circle svg{width:26px;height:26px;stroke:var(--sage-deep);}
+.cat-label{font-size:12px;letter-spacing:0.5px;color:var(--ink-soft);font-weight:500;}
+.cat-item.active .cat-label{color:var(--sage-deep);}
+
+/* ---- search ---- */
+.toolbar{display:flex;justify-content:center;margin:36px 0 8px;}
+.search-box{
+  display:flex;align-items:center;gap:10px;width:100%;max-width:380px;
+  background:var(--cream-card);border:1px solid var(--line);border-radius:22px;padding:11px 18px;
+}
+.search-box svg{width:16px;height:16px;stroke:var(--ink-soft);flex-shrink:0;}
+.search-box input{
+  border:none;outline:none;background:none;font-family:'Jost',sans-serif;
+  font-size:14px;color:var(--ink);width:100%;
+}
+.search-box input::placeholder{color:#B7AF9C;}
+.count-line{
+  text-align:center;font-size:12px;color:var(--ink-soft);letter-spacing:1px;
+  margin:22px 0 30px;text-transform:uppercase;
+}
+
+/* ---- product grid ---- */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:26px;}
+.card{
+  background:var(--cream-card);border:1px solid var(--line);border-radius:4px;
+  overflow:hidden;display:flex;flex-direction:column;
+  transition:transform .18s ease, box-shadow .18s ease;
+}
+.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(78,90,56,0.10);}
+.thumb{aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;position:relative;}
+.thumb svg{width:34%;height:34%;opacity:0.55;}
+.intent-chip{
+  position:absolute;top:10px;left:10px;background:rgba(255,253,249,0.92);
+  border:1px solid var(--gold);color:var(--sage-deep);
+  font-size:10px;letter-spacing:0.5px;text-transform:uppercase;
+  padding:4px 9px;border-radius:20px;font-weight:500;
+}
+.card-body{padding:16px 18px 20px;flex:1;display:flex;flex-direction:column;}
+.card-cat{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:6px;}
+.card-name{font-family:'Cormorant Garamond',serif;font-size:21px;font-weight:600;color:var(--ink);margin:0 0 6px;}
+.card-desc{font-size:12.5px;color:var(--ink-soft);line-height:1.55;margin:0 0 14px;flex:1;font-weight:300;}
+.card-footer{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);padding-top:12px;}
+.card-price{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;color:var(--sage-deep);}
+.card-btn{
+  border:1px solid var(--sage-deep);background:none;color:var(--sage-deep);
+  font-family:'Jost',sans-serif;font-size:11px;letter-spacing:0.5px;text-transform:uppercase;
+  padding:7px 14px;border-radius:20px;cursor:pointer;transition:background .18s, color .18s;
+}
+.card-btn:hover{background:var(--sage-deep);color:#fff;}
+.empty-state{text-align:center;padding:60px 20px;color:var(--ink-soft);grid-column:1/-1;font-size:14px;}
+
+/* ---- service list ---- */
+.services{display:flex;flex-direction:column;gap:18px;margin-top:48px;}
+.service{
+  background:var(--cream-card);border:1px solid var(--line);border-radius:4px;
+  padding:26px 28px;display:flex;gap:22px;align-items:flex-start;
+}
+.service-icon{
+  width:52px;height:52px;border-radius:50%;background:var(--sage-pale);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+}
+.service-icon svg{width:24px;height:24px;stroke:var(--sage-deep);}
+.service-body{flex:1;}
+.service-top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:8px;}
+.service-name{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:var(--ink);margin:0;line-height:1.3;}
+.service-price{font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:600;color:var(--sage-deep);white-space:nowrap;}
+.service-note{
+  display:inline-block;font-size:10px;letter-spacing:0.5px;text-transform:uppercase;
+  color:var(--gold);border:1px solid var(--gold);padding:2px 8px;border-radius:20px;
+  margin-left:8px;vertical-align:middle;
+}
+.service-desc{font-size:13px;color:var(--ink-soft);line-height:1.6;font-weight:300;margin:0 0 14px;}
+.service-btn{
+  border:1px solid var(--sage-deep);background:none;color:var(--sage-deep);
+  font-family:'Jost',sans-serif;font-size:11px;letter-spacing:0.5px;text-transform:uppercase;
+  padding:8px 16px;border-radius:20px;cursor:pointer;transition:background .18s, color .18s;
+}
+.service-btn:hover{background:var(--sage-deep);color:#fff;}
+
+/* ---- payments ---- */
+.payment-section{margin-top:64px;}
+.section-label{
+  text-align:center;font-size:12px;letter-spacing:2px;text-transform:uppercase;
+  color:var(--gold);font-weight:500;margin-bottom:22px;
+}
+.payment-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;}
+.pay-card{
+  background:var(--cream-card);border:1px solid var(--line);border-radius:4px;
+  padding:20px 22px;display:flex;align-items:center;gap:14px;
+}
+.pay-icon{
+  width:40px;height:40px;border-radius:50%;background:var(--gold-pale);flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;
+}
+.pay-icon svg{width:18px;height:18px;stroke:#8a6f3a;}
+.pay-label{font-size:11px;letter-spacing:0.5px;text-transform:uppercase;color:var(--ink-soft);margin:0 0 3px;}
+.pay-value{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;color:var(--ink);margin:0;}
+
+/* ---- home page ---- */
+.home-hero{padding:70px 28px 50px;text-align:center;}
+.home-links{
+  display:grid;grid-template-columns:1fr 1fr;gap:24px;
+  max-width:900px;margin:50px auto 0;padding:0 28px;
+}
+.home-card{
+  background:var(--cream-card);border:1px solid var(--line);border-radius:4px;
+  padding:40px 30px;text-align:center;text-decoration:none;
+  transition:transform .18s ease, box-shadow .18s ease;
+}
+.home-card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(78,90,56,0.10);}
+.home-card-icon{
+  width:60px;height:60px;border-radius:50%;background:var(--sage-pale);
+  display:flex;align-items:center;justify-content:center;margin:0 auto 18px;
+}
+.home-card-icon svg{width:26px;height:26px;stroke:var(--sage-deep);}
+.home-card h2{
+  font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:600;
+  color:var(--ink);margin:0 0 8px;
+}
+.home-card p{font-size:13px;color:var(--ink-soft);font-weight:300;line-height:1.6;margin:0 0 16px;}
+.home-card span.cta{
+  font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--sage-deep);
+  font-weight:500;border-bottom:1px solid var(--gold);padding-bottom:2px;
+}
+@media (max-width:640px){.home-links{grid-template-columns:1fr;}}
+
+/* ---- footer ---- */
+.site-footer{margin-top:70px;text-align:center;padding:40px 28px 60px;border-top:1px solid var(--line);}
+.site-footer p{font-size:12px;color:var(--ink-soft);letter-spacing:1px;text-transform:uppercase;margin:0 0 16px;}
+.wa-btn{
+  display:inline-flex;align-items:center;gap:8px;background:var(--sage-deep);color:#fff;
+  text-decoration:none;padding:12px 26px;border-radius:24px;font-size:13px;letter-spacing:0.5px;
+}
+.wa-btn svg{width:16px;height:16px;fill:#fff;}
+
+@media (max-width:480px){
+  .brand{font-size:42px;}
+  .cat-rail{gap:16px;}
+  .cat-circle{width:56px;height:56px;}
+  .service{flex-direction:column;gap:14px;}
+  .service-top{flex-direction:column;gap:6px;}
+}

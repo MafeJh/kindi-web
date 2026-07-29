@@ -1,0 +1,7 @@
+[
+  {"nombre":"Limpia con radiestesia (péndulo)","tipo":"pendulo","descripcion":"Limpieza energética personal guiada con péndulo, para liberar bloqueos y restaurar tu equilibrio.","precio":"$60.000","nota":null},
+  {"nombre":"Lectura de tarot · 1 pregunta","tipo":"tarot","descripcion":"Una pregunta puntual respondida con tarot, más una carta del oráculo angelical de apoyo.","precio":"$20.000","nota":null},
+  {"nombre":"Lectura completa · 3 preguntas","tipo":"tarot","descripcion":"Tarot con 3 preguntas, consejo del oráculo angelical, carta de numerología y carta del oráculo de sabiduría.","precio":"$60.000","nota":null},
+  {"nombre":"Nivelación de chakras con cristales","tipo":"chakra","descripcion":"Sesión de armonización de los 7 chakras con cristales, disponible con visita a domicilio.","precio":"$80.000","nota":"a domicilio"},
+  {"nombre":"Limpieza de espacios con radiestesia","tipo":"espacio","descripcion":"Limpieza energética de tu hogar u oficina para liberar cargas y renovar el flujo de energía.","precio":"$100.000","nota":null}
+]

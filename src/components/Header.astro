@@ -1,0 +1,27 @@
+---
+const { current = '' } = Astro.props;
+const links = [
+  { href: '/', label: 'Inicio', key: 'inicio' },
+  { href: '/productos', label: 'Productos', key: 'productos' },
+  { href: '/servicios', label: 'Servicios', key: 'servicios' },
+];
+---
+<header class="site-header">
+  <a class="logo-link" href="/">
+    <svg viewBox="0 0 64 64" fill="none" stroke-width="1.4">
+      <path d="M20 34c-6-2-11-8-13-14 6-1 12 2 15 7"/>
+      <path d="M20 34c4-10 14-16 24-15-2 9-9 17-19 19"/>
+      <circle cx="27" cy="28" r="2.2" fill="currentColor" stroke="none"/>
+      <path d="M25 30c-4 5-5 12-2 19 5-3 9-9 9-15"/>
+      <path d="M32 33l14 6"/>
+    </svg>
+    <span class="logo-text">Kindi</span>
+  </a>
+  <nav>
+    <ul class="nav-links">
+      {links.map(link => (
+        <li><a href={link.href} class={current === link.key ? 'active' : ''}>{link.label}</a></li>
+      ))}
+    </ul>
+  </nav>
+</header>

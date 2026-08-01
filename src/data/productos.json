@@ -306,18 +306,22 @@
   {
     "nombre": "Cristales terapéuticos",
     "categoria": "dijes",
-    "descripcion": "Mini cristales terapéuticos sueltos, ideales para tu altar o bolsillo.",
-    "precio": "$450",
+    "descripcion": "Cristales terapéuticos en distintas presentaciones, ideales para tu altar, bolsillo o para llevar contigo.",
     "intencion": "claridad",
-    "imagen": "/images/productos/cristales-terapeuticos-1.jpg"
-  },
-  {
-    "nombre": "Cristales terapéuticos pulidos",
-    "categoria": "dijes",
-    "descripcion": "Cristales terapéuticos pulidos, listos para llevar contigo.",
-    "precio": "$4.500",
-    "intencion": "claridad",
-    "imagen": "/images/productos/cristales-terapeuticos-pulidos-1.jpg"
+    "imagen": "/images/productos/cristales-terapeuticos-1.jpg",
+    "variantes": [
+      {
+        "nombre": "Sueltos",
+        "precio": "$450",
+        "descripcion": "Mini cristales terapéuticos sueltos, ideales para tu altar o bolsillo."
+      },
+      {
+        "nombre": "Pulidos",
+        "precio": "$4.500",
+        "descripcion": "Cristales terapéuticos pulidos, listos para llevar contigo.",
+        "imagen": "/images/productos/cristales-terapeuticos-pulidos-1.jpg"
+      }
+    ]
   },
   {
     "nombre": "Cuarzo rosa terapéutico",

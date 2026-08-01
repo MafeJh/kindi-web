@@ -1,6 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import productos from '../data/productos.json';
+import todosLosProductos from '../data/productos.json';
+
+// Ocultar piezas sin foto hasta que se entregue la imagen.
+const productos = todosLosProductos.filter(p => p.imagen);
 
 const categorias = [
   { key: 'todos', label: 'Todos', icon: '<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>' },
@@ -58,7 +61,7 @@ const intentIcons = {
 
     <div class="grid" id="grid">
       {productos.map(p => (
-        <div class="card" data-cat={p.categoria} data-search={`${p.nombre} ${p.descripcion} ${p.intencion || ''}`.toLowerCase()}>
+        <div class="card" data-cat={p.categoria} data-search={`${p.nombre} ${p.descripcion} ${p.intencion || ''} ${p.variantes ? p.variantes.map(v => `${v.nombre} ${v.descripcion || ''}`).join(' ') : ''}`.toLowerCase()}>
           <div class="thumb" style={`background:${p.intencion ? 'var(--sage-pale)' : 'var(--gold-pale)'}`}>
             {p.intencion && <div class="intent-chip">{p.intencion}</div>}
             {p.imagen ? (
@@ -71,10 +74,24 @@ const intentIcons = {
             <div class="card-cat">{catLabels[p.categoria] || p.categoria}</div>
             <p class="card-name">{p.nombre}</p>
             <p class="card-desc">{p.descripcion}</p>
-            <div class="card-footer">
-              <span class="card-price">{p.precio}</span>
-              <button class="card-btn" data-nombre={p.nombre}>Consultar</button>
-            </div>
+            {p.variantes ? (
+              <div class="variant-list">
+                {p.variantes.map(v => (
+                  <div class="variant-row">
+                    <div class="variant-info">
+                      <span class="variant-name">{v.nombre}</span>
+                      <span class="variant-price">{v.precio}</span>
+                    </div>
+                    <button class="variant-btn" data-nombre={`${p.nombre} - ${v.nombre}`}>Consultar</button>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div class="card-footer">
+                <span class="card-price">{p.precio}</span>
+                <button class="card-btn" data-nombre={p.nombre}>Consultar</button>
+              </div>
+            )}
           </div>
         </div>
       ))}
@@ -121,7 +138,7 @@ const intentIcons = {
   });
 
   document.getElementById('grid').addEventListener('click', e => {
-    const btn = e.target.closest('.card-btn');
+    const btn = e.target.closest('.card-btn, .variant-btn');
     if (!btn) return;
     const msg = 'Hola, me interesa la pieza ' + btn.dataset.nombre;
     window.open('https://wa.me/573197079603?text=' + encodeURIComponent(msg), '_blank');

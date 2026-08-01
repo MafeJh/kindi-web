@@ -186,4 +186,225 @@
   {
     "nombre": "Anillo amatista",
     "categoria": "anillos",
-    "descripcion": "Anillo con amatista en bruto envuelta en alambre dorado,,
+    "descripcion": "Anillo con amatista en bruto envuelta en alambre dorado, para la calma.",
+    "precio": "$18.000",
+    "intencion": "calma",
+    "imagen": "/images/productos/anillo-amatista-1.jpg"
+  },
+  {
+    "nombre": "Anillo cuarzo transparente",
+    "categoria": "anillos",
+    "descripcion": "Anillo con cuarzo transparente en bruto envuelto en alambre dorado, para claridad.",
+    "precio": "$18.000",
+    "intencion": "claridad",
+    "imagen": "/images/productos/anillo-cuarzo-transparente-1.jpg"
+  },
+  {
+    "nombre": "Anillo siete chakras",
+    "categoria": "anillos",
+    "descripcion": "Anillo de los siete chakras, para equilibrar tu energía vital.",
+    "precio": "$18.000",
+    "intencion": "vitalidad",
+    "imagen": "/images/productos/anillo-siete-chakras-1.jpg"
+  },
+  {
+    "nombre": "Anillo dorado ajustable cuarzos",
+    "categoria": "anillos",
+    "descripcion": "Anillo dorado ajustable con cuarzos, energía en un solo diseño.",
+    "precio": "$12.000",
+    "intencion": "vitalidad",
+    "imagen": "/images/productos/anillo-dorado-ajustable-cuarzos-rosa.jpg"
+  },
+  {
+    "nombre": "Set ojo de tigre",
+    "categoria": "sets",
+    "descripcion": "Set de aretes y manilla en ojo de tigre, para protección.",
+    "precio": "$32.000",
+    "intencion": "proteccion",
+    "imagen": null
+  },
+  {
+    "nombre": "Set perlas rosas y blancas",
+    "categoria": "sets",
+    "descripcion": "Set de aretes y manilla en perlas rosas y blancas.",
+    "precio": "$50.000",
+    "intencion": "calma",
+    "imagen": "/images/productos/set-perlas-rosas-y-blancas-1.jpg"
+  },
+  {
+    "nombre": "Set mariposas covergold",
+    "categoria": "sets",
+    "descripcion": "Set de aretes y manilla con mariposas en cover gold.",
+    "precio": "$34.500",
+    "intencion": null,
+    "imagen": null
+  },
+  {
+    "nombre": "Set covergold piedras verde, roja y negra",
+    "categoria": "sets",
+    "descripcion": "Set en cover gold con piedras en verde, rojo y negro.",
+    "precio": "$48.000",
+    "intencion": null,
+    "imagen": null
+  },
+  {
+    "nombre": "Turquesa",
+    "categoria": "dijes",
+    "descripcion": "Piedra turquesa suelta, asociada a la protección y el equilibrio.",
+    "precio": "$10.000",
+    "intencion": "proteccion",
+    "imagen": null
+  },
+  {
+    "nombre": "Pirita",
+    "categoria": "dijes",
+    "descripcion": "Piedra pirita, conocida como la piedra de la abundancia.",
+    "precio": "$14.000",
+    "intencion": "abundancia",
+    "imagen": null
+  },
+  {
+    "nombre": "Cuarzo rosa",
+    "categoria": "dijes",
+    "descripcion": "Cuarzo rosa en bruto, piedra del amor propio.",
+    "precio": "$10.000",
+    "intencion": "amor",
+    "imagen": null
+  },
+  {
+    "nombre": "Jade",
+    "categoria": "dijes",
+    "descripcion": "Piedra jade, asociada a la prosperidad y la buena fortuna.",
+    "precio": "$10.000",
+    "intencion": "abundancia",
+    "imagen": null
+  },
+  {
+    "nombre": "Cornalina",
+    "categoria": "dijes",
+    "descripcion": "Piedra cornalina, asociada a la energía y la vitalidad.",
+    "precio": "$10.000",
+    "intencion": "vitalidad",
+    "imagen": null
+  },
+  {
+    "nombre": "Ónix",
+    "categoria": "dijes",
+    "descripcion": "Piedra ónix, para protección y conexión con la tierra.",
+    "precio": "$10.000",
+    "intencion": "proteccion",
+    "imagen": null
+  },
+  {
+    "nombre": "Dije ángel en amatista",
+    "categoria": "dijes",
+    "descripcion": "Dije de ángel tallado en amatista, con cadena plateada.",
+    "precio": "$12.000",
+    "intencion": "proteccion",
+    "imagen": "/images/productos/dije-angel-amatista-1.jpg"
+  },
+  {
+    "nombre": "Cristales terapéuticos",
+    "categoria": "dijes",
+    "descripcion": "Mini cristales terapéuticos sueltos, ideales para tu altar o bolsillo.",
+    "precio": "$450",
+    "intencion": "claridad",
+    "imagen": "/images/productos/cristales-terapeuticos-1.jpg"
+  },
+  {
+    "nombre": "Cristales terapéuticos pulidos",
+    "categoria": "dijes",
+    "descripcion": "Cristales terapéuticos pulidos, listos para llevar contigo.",
+    "precio": "$4.500",
+    "intencion": "claridad",
+    "imagen": "/images/productos/cristales-terapeuticos-pulidos-1.jpg"
+  },
+  {
+    "nombre": "Cuarzo rosa terapéutico",
+    "categoria": "dijes",
+    "descripcion": "Cuarzo rosa terapéutico, piedra del amor propio.",
+    "precio": "$3.000",
+    "intencion": "amor",
+    "imagen": null
+  },
+  {
+    "nombre": "Dije obsidiana grande",
+    "categoria": "dijes",
+    "descripcion": "Dije de obsidiana grande, piedra de protección y arraigo.",
+    "precio": "$37.500",
+    "intencion": "proteccion",
+    "imagen": null
+  },
+  {
+    "nombre": "Dije cianita, escoba de bruja",
+    "categoria": "dijes",
+    "descripcion": "Dije de cianita, conocida como escoba de bruja, para claridad mental. Con cadena completa: $25.000.",
+    "precio": "$15.000",
+    "intencion": "claridad",
+    "imagen": "/images/productos/dije-cianita-escoba-bruja-1.jpg"
+  },
+  {
+    "nombre": "Cuarzo cristal y siete chakras",
+    "categoria": "dijes",
+    "descripcion": "Dije de cuarzo cristal con los siete chakras, energía vital.",
+    "precio": "$26.700",
+    "intencion": "vitalidad",
+    "imagen": "/images/productos/cuarzo-cristal-siete-chakras-1.jpg"
+  },
+  {
+    "nombre": "Selenita terapéutica",
+    "categoria": "dijes",
+    "descripcion": "Selenita terapéutica en dije, piedra de limpieza y claridad energética. Con cadena completa: $16.000.",
+    "precio": "$6.000",
+    "intencion": "claridad",
+    "imagen": "/images/productos/selenita-terapeutica-1.jpg"
+  },
+  {
+    "nombre": "Selenita en varitas",
+    "categoria": "dijes",
+    "descripcion": "Set de varitas de selenita en bruto, para limpieza y claridad energética.",
+    "precio": "$15.000",
+    "intencion": "claridad",
+    "imagen": "/images/productos/selenita-en-varitas-1.jpg"
+  },
+  {
+    "nombre": "Dijes cuarzos con información",
+    "categoria": "dijes",
+    "descripcion": "Dijes de cuarzo con tarjeta informativa sobre su significado.",
+    "precio": "$6.000",
+    "intencion": "claridad",
+    "imagen": null
+  },
+  {
+    "nombre": "Dije Virgen de Guadalupe",
+    "categoria": "dijes",
+    "descripcion": "Dije de la Virgen de Guadalupe, para protección y fe.",
+    "precio": "$14.250",
+    "intencion": "proteccion",
+    "imagen": null
+  },
+  {
+    "nombre": "Dije turmalina negra",
+    "categoria": "dijes",
+    "descripcion": "Dije de turmalina negra en bruto, piedra de protección. Precio del dije solo; la cadena se cotiza aparte según el modelo.",
+    "precio": "$8.000",
+    "intencion": "proteccion",
+    "imagen": "/images/productos/dije-turmalina-negra-1.jpg"
+  },
+  {
+    "nombre": "Medalla de San Benito",
+    "categoria": "dijes",
+    "descripcion": "Medalla de San Benito, protección tradicional contra las energías negativas.",
+    "precio": "$5.000",
+    "intencion": "proteccion",
+    "imagen": null
+  },
+  {
+    "nombre": "Espada de San Miguel Arcángel",
+    "categoria": "dijes",
+    "descripcion": "Espada de San Miguel Arcángel, símbolo de protección y fuerza espiritual.",
+    "precio": "$6.000",
+    "intencion": "proteccion",
+    "imagen": "/images/productos/espada-san-miguel-arcangel-1.jpg"
+  }
+]

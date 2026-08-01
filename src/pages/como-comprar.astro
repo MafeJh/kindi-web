@@ -1,0 +1,83 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const pasos = [
+  {
+    numero: '01',
+    titulo: 'Explora el catálogo',
+    texto: 'Entra a Productos o Servicios y mira las piezas y sesiones disponibles. Puedes filtrar por categoría o buscar por nombre en Productos.',
+  },
+  {
+    numero: '02',
+    titulo: 'Escríbenos por WhatsApp',
+    texto: 'En cada producto o servicio hay un botón "Consultar" o "Agendar" que abre WhatsApp con un mensaje ya listo, indicando qué te interesa.',
+  },
+  {
+    numero: '03',
+    titulo: 'Confirma disponibilidad y datos de envío',
+    texto: 'Por WhatsApp confirmamos si la pieza está disponible, resolvemos tus dudas y coordinamos los detalles de entrega o de tu sesión.',
+  },
+  {
+    numero: '04',
+    titulo: 'Realiza el pago',
+    texto: 'Transfiere el valor a Nequi, Bancolombia o Llave (los datos están en la página de Servicios y en la confirmación por WhatsApp).',
+  },
+  {
+    numero: '05',
+    titulo: 'Envía el comprobante',
+    texto: 'Manda la captura o comprobante de la transferencia por WhatsApp para confirmar tu pedido o cita.',
+  },
+];
+---
+<Layout title="Cómo comprar · Kindi" current="como-comprar">
+  <section class="page-hero">
+    <p class="brand" style="font-size:38px;">Cómo comprar</p>
+    <div class="divider"></div>
+    <p class="subtext">Comprar en Kindi es simple: todo el proceso se coordina por WhatsApp, paso a paso.</p>
+  </section>
+
+  <div class="wrap-narrow">
+    <div class="steps">
+      {pasos.map(p => (
+        <div class="step">
+          <span class="step-num">{p.numero}</span>
+          <div>
+            <p class="step-title">{p.titulo}</p>
+            <p class="step-text">{p.texto}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <div class="payment-section">
+      <p class="section-label">Importante</p>
+      <div class="pay-card" style="max-width:520px;margin:0 auto;">
+        <div class="pay-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#8a6f3a" stroke-width="1.5"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div>
+        <div>
+          <p class="pay-label">Tu pedido se confirma con el comprobante</p>
+          <p class="step-text" style="margin:4px 0 0;">Ninguna compra queda confirmada hasta que enviamos y recibimos el comprobante de pago por WhatsApp.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .steps{display:flex;flex-direction:column;gap:0;margin-top:44px;}
+  .step{
+    display:flex;gap:22px;align-items:flex-start;
+    padding:22px 0;border-bottom:1px solid var(--line);
+  }
+  .step:last-child{border-bottom:none;}
+  .step-num{
+    font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:600;
+    color:var(--gold);flex-shrink:0;width:44px;
+  }
+  .step-title{
+    font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:600;
+    color:var(--ink);margin:0 0 6px;
+  }
+  .step-text{
+    font-size:13.5px;color:var(--ink-soft);line-height:1.6;font-weight:300;margin:0;
+  }
+</style>

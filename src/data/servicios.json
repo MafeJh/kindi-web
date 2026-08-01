@@ -3,5 +3,6 @@
   {"nombre":"Lectura de tarot · 1 pregunta","tipo":"tarot","descripcion":"Una pregunta puntual respondida con tarot, más una carta del oráculo angelical de apoyo.","precio":"$20.000","nota":null},
   {"nombre":"Lectura completa · 3 preguntas","tipo":"tarot","descripcion":"Tarot con 3 preguntas, consejo del oráculo angelical, carta de numerología y carta del oráculo de sabiduría.","precio":"$60.000","nota":null},
   {"nombre":"Nivelación de chakras con cristales","tipo":"chakra","descripcion":"Sesión de armonización de los 7 chakras con cristales, disponible con visita a domicilio.","precio":"$80.000","nota":"a domicilio"},
-  {"nombre":"Limpieza de espacios con radiestesia","tipo":"espacio","descripcion":"Limpieza energética de tu hogar u oficina para liberar cargas y renovar el flujo de energía.","precio":"$100.000","nota":null}
+  {"nombre":"Limpieza de espacios con radiestesia","tipo":"espacio","descripcion":"Limpieza energética de tu hogar u oficina para liberar cargas y renovar el flujo de energía.","precio":"$100.000","nota":null},
+  {"nombre":"Reiki","tipo":"reiki","descripcion":"Sesión de Reiki para equilibrar tu energía y acompañar tu bienestar físico y emocional.","precio":"$30.000","nota":null}
 ]

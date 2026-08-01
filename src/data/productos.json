@@ -1,35 +1,410 @@
 [
-  {"nombre":"Colibrí","categoria":"cadenas","descripcion":"Cadena fina bañada en oro con dije de colibrí, símbolo de ligereza.","precio":"S/ 85","intencion":null},
-  {"nombre":"Amatista Luna","categoria":"cadenas","descripcion":"Cadena con cuarzo amatista para acompañar la calma y la intuición.","precio":"S/ 110","intencion":"calma"},
-  {"nombre":"Raíz Dorada","categoria":"cadenas","descripcion":"Cadena tejida con acabado dorado mate, inspirada en enredaderas.","precio":"S/ 78","intencion":null},
-  {"nombre":"Citrino Sol","categoria":"cadenas","descripcion":"Cadena con cuarzo citrino, piedra asociada a la abundancia.","precio":"S/ 115","intencion":"abundancia"},
-  {"nombre":"Hoja de Otoño","categoria":"cadenas","descripcion":"Dije en forma de hoja con textura natural grabada a mano.","precio":"S/ 72","intencion":null},
-  {"nombre":"Cuarzo Rosa Corazón","categoria":"cadenas","descripcion":"Cuarzo rosa tallado en forma de corazón, piedra del amor propio.","precio":"S/ 120","intencion":"amor"},
-  {"nombre":"Pluma Ligera","categoria":"cadenas","descripcion":"Cadena delicada con dije de pluma en acabado envejecido.","precio":"S/ 68","intencion":null},
-  {"nombre":"Ojo de Tigre","categoria":"cadenas","descripcion":"Cadena con cuarzo ojo de tigre, para protección y fuerza.","precio":"S/ 118","intencion":"proteccion"},
-
-  {"nombre":"Gotas de Rocío","categoria":"aretas","descripcion":"Aretes colgantes con detalle de perla natural.","precio":"S/ 65","intencion":null},
-  {"nombre":"Amatista Gota","categoria":"aretas","descripcion":"Aretes con cuarzo amatista tallado en gota.","precio":"S/ 95","intencion":"calma"},
-  {"nombre":"Hojas de Sauce","categoria":"aretas","descripcion":"Aretes largos con textura de hojas bañados en oro.","precio":"S/ 70","intencion":null},
-  {"nombre":"Cuarzo Blanco Faceta","categoria":"aretas","descripcion":"Aretes con cuarzo blanco facetado, símbolo de claridad mental.","precio":"S/ 98","intencion":"claridad"},
-  {"nombre":"Luna Creciente","categoria":"aretas","descripcion":"Aretes en forma de media luna, acabado martillado.","precio":"S/ 60","intencion":null},
-  {"nombre":"Citrino Mini","categoria":"aretas","descripcion":"Aretes pequeños con cuarzo citrino para el día a día.","precio":"S/ 88","intencion":"abundancia"},
-  {"nombre":"Trigo Dorado","categoria":"aretas","descripcion":"Aretes inspirados en espigas de trigo, textura orgánica.","precio":"S/ 58","intencion":null},
-  {"nombre":"Cuarzo Rosa Botón","categoria":"aretas","descripcion":"Aretes tipo botón con cuarzo rosa pulido.","precio":"S/ 80","intencion":"amor"},
-
-  {"nombre":"Enredadera","categoria":"manillas","descripcion":"Manilla trenzada con dije de hoja colgante.","precio":"S/ 55","intencion":null},
-  {"nombre":"Amatista Perlada","categoria":"manillas","descripcion":"Manilla combinando perlas y cuentas de amatista.","precio":"S/ 92","intencion":"calma"},
-  {"nombre":"Colibrí Dorado","categoria":"manillas","descripcion":"Manilla ajustable con dije de colibrí en dorado.","precio":"S/ 65","intencion":null},
-  {"nombre":"Citrino Cadena","categoria":"manillas","descripcion":"Manilla de cadena fina con cuentas de citrino.","precio":"S/ 98","intencion":"abundancia"},
-  {"nombre":"Nudo Infinito","categoria":"manillas","descripcion":"Manilla con dije de nudo infinito, símbolo de conexión.","precio":"S/ 62","intencion":null},
-  {"nombre":"Ojo de Tigre Cuentas","categoria":"manillas","descripcion":"Manilla de cuentas con ojo de tigre para protección diaria.","precio":"S/ 90","intencion":"proteccion"},
-  {"nombre":"Hilo Natural Dorado","categoria":"manillas","descripcion":"Manilla de hilo trenzado con dije bañado en oro.","precio":"S/ 48","intencion":null},
-  {"nombre":"Cuarzo Rosa Cuentas","categoria":"manillas","descripcion":"Manilla de cuentas de cuarzo rosa, para el autocuidado.","precio":"S/ 85","intencion":"amor"},
-
-  {"nombre":"Aro Simple Dorado","categoria":"anillos","descripcion":"Anillo fino minimalista, ideal para combinar en capas.","precio":"S/ 45","intencion":null},
-  {"nombre":"Amatista Solitario","categoria":"anillos","descripcion":"Anillo con cuarzo amatista central, montaje delicado.","precio":"S/ 105","intencion":"calma"},
-  {"nombre":"Rama Entrelazada","categoria":"anillos","descripcion":"Anillo con textura de rama, acabado mate envejecido.","precio":"S/ 58","intencion":null},
-  {"nombre":"Citrino Solitario","categoria":"anillos","descripcion":"Anillo con cuarzo citrino, para atraer abundancia.","precio":"S/ 108","intencion":"abundancia"},
-  {"nombre":"Doble Aro","categoria":"anillos","descripcion":"Anillo de dos líneas entrelazadas en acabado dorado.","precio":"S/ 50","intencion":null},
-  {"nombre":"Cuarzo Blanco Solitario","categoria":"anillos","descripcion":"Anillo con cuarzo blanco, piedra de claridad y enfoque.","precio":"S/ 100","intencion":"claridad"}
+  {
+    "nombre": "Cadena Snake cover gold",
+    "categoria": "cadenas",
+    "descripcion": "Cadena estilo snake en baño cover gold, brillo duradero para el día a día.",
+    "precio": "$33.000",
+    "intencion": null,
+    "imagen": "/images/productos/cadena-snake-cover-gold-1.jpg"
+  },
+  {
+    "nombre": "Cadena entrelazada oro rosa cover gold",
+    "categoria": "cadenas",
+    "descripcion": "Cadena de eslabones entrelazados en cover gold rosa, elegante y resistente.",
+    "precio": "$44.000",
+    "intencion": null,
+    "imagen": "/images/productos/cadena-entrelazada-oro-rosa-cover-gold-1.jpg"
+  },
+  {
+    "nombre": "Collar mostacilla negra con dije trébol",
+    "categoria": "cadenas",
+    "descripcion": "Collar de mostacilla negra con cadena delgada y dije de trébol.",
+    "precio": "$26.000",
+    "intencion": null,
+    "imagen": "/images/productos/collar-mostacilla-negra-trebol-1.jpg"
+  },
+  {
+    "nombre": "Collar mostacilla transparente con dije trébol",
+    "categoria": "cadenas",
+    "descripcion": "Collar de mostacilla transparente con cadena delgada y dije de trébol.",
+    "precio": "$26.000",
+    "intencion": null,
+    "imagen": "/images/productos/collar-mostacilla-transparente-trebol-1.jpg"
+  },
+  {
+    "nombre": "Collar mostacilla café y dorada, corazón",
+    "categoria": "cadenas",
+    "descripcion": "Collar de mostacilla café y dorada con dije de corazón.",
+    "precio": "$18.000",
+    "intencion": null,
+    "imagen": "/images/productos/collar-mostacilla-cafe-dorada-corazon-1.jpg"
+  },
+  {
+    "nombre": "Aretas tejidas flor azul y dorada",
+    "categoria": "aretas",
+    "descripcion": "Aretes tejidos a mano con flor en azul y dorado.",
+    "precio": "$15.000",
+    "intencion": null,
+    "imagen": "/images/productos/aretas-tejidas-flor-azul-dorada-1.jpg"
+  },
+  {
+    "nombre": "Aretas mostacilla negra tejida",
+    "categoria": "aretas",
+    "descripcion": "Aretes tejidos en mostacilla negra, minimalistas y livianos.",
+    "precio": "$15.000",
+    "intencion": null,
+    "imagen": "/images/productos/aretas-mostacilla-negra-tejida-1.jpg"
+  },
+  {
+    "nombre": "Aretes en cover gold gota verde",
+    "categoria": "aretas",
+    "descripcion": "Aretes en cover gold con gota verde, para un toque de color.",
+    "precio": "$32.000",
+    "intencion": null,
+    "imagen": "/images/productos/aretes-cover-gold-gota-verde-1.jpg"
+  },
+  {
+    "nombre": "Candongas en acero",
+    "categoria": "aretas",
+    "descripcion": "Candongas clásicas en acero quirúrgico, para uso diario.",
+    "precio": "$6.000",
+    "intencion": null,
+    "imagen": null
+  },
+  {
+    "nombre": "Topos de flor en cover gold",
+    "categoria": "aretas",
+    "descripcion": "Topos en forma de flor, acabado cover gold cepillado.",
+    "precio": "$7.500",
+    "intencion": null,
+    "imagen": "/images/productos/topos-flor-covergold-1.jpg"
+  },
+  {
+    "nombre": "Topos redondos negro en cover gold",
+    "categoria": "aretas",
+    "descripcion": "Topos redondos en cover gold con centro en piedra negra.",
+    "precio": "$7.500",
+    "intencion": null,
+    "imagen": "/images/productos/topos-redondos-negro-covergold-1.jpg"
+  },
+  {
+    "nombre": "Topos mariposa cover gold",
+    "categoria": "aretas",
+    "descripcion": "Topos en forma de mariposa, acabado cover gold.",
+    "precio": "$7.500",
+    "intencion": null,
+    "imagen": "/images/productos/topos-mariposa-covergold-1.jpg"
+  },
+  {
+    "nombre": "Candonga corazón covergold",
+    "categoria": "aretas",
+    "descripcion": "Candonga en cover gold con dije de corazón colgante.",
+    "precio": "$12.000",
+    "intencion": null,
+    "imagen": "/images/productos/candonga-corazon-covergold-1.jpg"
+  },
+  {
+    "nombre": "Pulsera de perla natural",
+    "categoria": "manillas",
+    "descripcion": "Pulsera de perla natural, disponible en distintos tonos. Para la calma.",
+    "precio": "$24.000",
+    "intencion": "calma",
+    "imagen": "/images/productos/pulsera-perla-natural-gris.jpg"
+  },
+  {
+    "nombre": "Siete nudos",
+    "categoria": "manillas",
+    "descripcion": "Manilla de siete nudos, tejida a mano para protección.",
+    "precio": "$6.000",
+    "intencion": "proteccion",
+    "imagen": "/images/productos/siete-nudos-1.jpg"
+  },
+  {
+    "nombre": "Manilla San Benito con balines",
+    "categoria": "manillas",
+    "descripcion": "Manilla con balines y medalla de San Benito.",
+    "precio": "$10.500",
+    "intencion": "proteccion",
+    "imagen": null
+  },
+  {
+    "nombre": "Pulsera cover gold mariposa",
+    "categoria": "manillas",
+    "descripcion": "Pulsera en cover gold con dije de mariposa.",
+    "precio": "$30.000",
+    "intencion": null,
+    "imagen": null
+  },
+  {
+    "nombre": "Manillas arcángeles",
+    "categoria": "manillas",
+    "descripcion": "Manilla con dijes de arcángeles, para protección espiritual.",
+    "precio": "$12.750",
+    "intencion": "proteccion",
+    "imagen": null
+  },
+  {
+    "nombre": "Manilla arcángel Rafael",
+    "categoria": "manillas",
+    "descripcion": "Manilla en jade y aventurina con medalla del arcángel Rafael, para la salud.",
+    "precio": "$12.750",
+    "intencion": "vitalidad",
+    "imagen": "/images/productos/manilla-arcangel-rafael-1.jpg"
+  },
+  {
+    "nombre": "Manilla Guadalupe dorada, hilo rojo",
+    "categoria": "manillas",
+    "descripcion": "Manilla de hilo rojo con medalla dorada de la Virgen de Guadalupe.",
+    "precio": "$10.500",
+    "intencion": "proteccion",
+    "imagen": "/images/productos/manilla-guadalupe-dorada-hilo-rojo-1.jpg"
+  },
+  {
+    "nombre": "Manilla virgen con dijes y balines",
+    "categoria": "manillas",
+    "descripcion": "Manilla con dijes de la Virgen y balines, para protección.",
+    "precio": "$10.500",
+    "intencion": "proteccion",
+    "imagen": null
+  },
+  {
+    "nombre": "Set manillas perla dorada con hoja",
+    "categoria": "manillas",
+    "descripcion": "Set de dos manillas en perla dorada con dije de hoja y detalles cristal.",
+    "precio": "$6.000",
+    "intencion": null,
+    "imagen": "/images/productos/set-manillas-perla-dorada-con-hoja-1.jpg"
+  },
+  {
+    "nombre": "Anillo turmalina",
+    "categoria": "anillos",
+    "descripcion": "Anillo con turmalina, piedra de protección energética.",
+    "precio": "$18.000",
+    "intencion": "proteccion",
+    "imagen": "/images/productos/anillo-turmalina-1.jpg"
+  },
+  {
+    "nombre": "Anillo amatista",
+    "categoria": "anillos",
+    "descripcion": "Anillo con amatista en bruto envuelta en alambre dorado, para la calma.",
+    "precio": "$18.000",
+    "intencion": "calma",
+    "imagen": "/images/productos/anillo-amatista-1.jpg"
+  },
+  {
+    "nombre": "Anillo cuarzo transparente",
+    "categoria": "anillos",
+    "descripcion": "Anillo con cuarzo transparente en bruto envuelto en alambre dorado, para claridad.",
+    "precio": "$18.000",
+    "intencion": "claridad",
+    "imagen": "/images/productos/anillo-cuarzo-transparente-1.jpg"
+  },
+  {
+    "nombre": "Anillo siete chakras",
+    "categoria": "anillos",
+    "descripcion": "Anillo de los siete chakras, para equilibrar tu energía vital.",
+    "precio": "$18.000",
+    "intencion": "vitalidad",
+    "imagen": "/images/productos/anillo-siete-chakras-1.jpg"
+  },
+  {
+    "nombre": "Anillo dorado ajustable cuarzos",
+    "categoria": "anillos",
+    "descripcion": "Anillo dorado ajustable con cuarzos, energía en un solo diseño.",
+    "precio": "$12.000",
+    "intencion": "vitalidad",
+    "imagen": "/images/productos/anillo-dorado-ajustable-cuarzos-rosa.jpg"
+  },
+  {
+    "nombre": "Set ojo de tigre",
+    "categoria": "sets",
+    "descripcion": "Set de aretes y manilla en ojo de tigre, para protección.",
+    "precio": "$32.000",
+    "intencion": "proteccion",
+    "imagen": null
+  },
+  {
+    "nombre": "Set perlas rosas y blancas",
+    "categoria": "sets",
+    "descripcion": "Set de aretes y manilla en perlas rosas y blancas.",
+    "precio": "$50.000",
+    "intencion": "calma",
+    "imagen": "/images/productos/set-perlas-rosas-y-blancas-1.jpg"
+  },
+  {
+    "nombre": "Set mariposas covergold",
+    "categoria": "sets",
+    "descripcion": "Set de aretes y manilla con mariposas en cover gold.",
+    "precio": "$34.500",
+    "intencion": null,
+    "imagen": null
+  },
+  {
+    "nombre": "Set covergold piedras verde, roja y negra",
+    "categoria": "sets",
+    "descripcion": "Set en cover gold con piedras en verde, rojo y negro.",
+    "precio": "$48.000",
+    "intencion": null,
+    "imagen": null
+  },
+  {
+    "nombre": "Turquesa",
+    "categoria": "dijes",
+    "descripcion": "Piedra turquesa suelta, asociada a la protección y el equilibrio.",
+    "precio": "$10.000",
+    "intencion": "proteccion",
+    "imagen": null
+  },
+  {
+    "nombre": "Pirita",
+    "categoria": "dijes",
+    "descripcion": "Piedra pirita, conocida como la piedra de la abundancia.",
+    "precio": "$14.000",
+    "intencion": "abundancia",
+    "imagen": null
+  },
+  {
+    "nombre": "Cuarzo rosa",
+    "categoria": "dijes",
+    "descripcion": "Cuarzo rosa en bruto, piedra del amor propio.",
+    "precio": "$10.000",
+    "intencion": "amor",
+    "imagen": null
+  },
+  {
+    "nombre": "Jade",
+    "categoria": "dijes",
+    "descripcion": "Piedra jade, asociada a la prosperidad y la buena fortuna.",
+    "precio": "$10.000",
+    "intencion": "abundancia",
+    "imagen": null
+  },
+  {
+    "nombre": "Cornalina",
+    "categoria": "dijes",
+    "descripcion": "Piedra cornalina, asociada a la energía y la vitalidad.",
+    "precio": "$10.000",
+    "intencion": "vitalidad",
+    "imagen": null
+  },
+  {
+    "nombre": "Ónix",
+    "categoria": "dijes",
+    "descripcion": "Piedra ónix, para protección y conexión con la tierra.",
+    "precio": "$10.000",
+    "intencion": "proteccion",
+    "imagen": null
+  },
+  {
+    "nombre": "Dije ángel en amatista",
+    "categoria": "dijes",
+    "descripcion": "Dije de ángel tallado en amatista, con cadena plateada.",
+    "precio": "$12.000",
+    "intencion": "proteccion",
+    "imagen": "/images/productos/dije-angel-amatista-1.jpg"
+  },
+  {
+    "nombre": "Cristales terapéuticos",
+    "categoria": "dijes",
+    "descripcion": "Mini cristales terapéuticos sueltos, ideales para tu altar o bolsillo.",
+    "precio": "$450",
+    "intencion": "claridad",
+    "imagen": "/images/productos/cristales-terapeuticos-1.jpg"
+  },
+  {
+    "nombre": "Cristales terapéuticos pulidos",
+    "categoria": "dijes",
+    "descripcion": "Cristales terapéuticos pulidos, listos para llevar contigo.",
+    "precio": "$4.500",
+    "intencion": "claridad",
+    "imagen": "/images/productos/cristales-terapeuticos-pulidos-1.jpg"
+  },
+  {
+    "nombre": "Cuarzo rosa terapéutico",
+    "categoria": "dijes",
+    "descripcion": "Cuarzo rosa terapéutico, piedra del amor propio.",
+    "precio": "$3.000",
+    "intencion": "amor",
+    "imagen": null
+  },
+  {
+    "nombre": "Dije obsidiana grande",
+    "categoria": "dijes",
+    "descripcion": "Dije de obsidiana grande, piedra de protección y arraigo.",
+    "precio": "$37.500",
+    "intencion": "proteccion",
+    "imagen": null
+  },
+  {
+    "nombre": "Dije cianita, escoba de bruja",
+    "categoria": "dijes",
+    "descripcion": "Dije de cianita, conocida como escoba de bruja, para claridad mental. Con cadena completa: $25.000.",
+    "precio": "$15.000",
+    "intencion": "claridad",
+    "imagen": "/images/productos/dije-cianita-escoba-bruja-1.jpg"
+  },
+  {
+    "nombre": "Cuarzo cristal y siete chakras",
+    "categoria": "dijes",
+    "descripcion": "Dije de cuarzo cristal con los siete chakras, energía vital.",
+    "precio": "$26.700",
+    "intencion": "vitalidad",
+    "imagen": "/images/productos/cuarzo-cristal-siete-chakras-1.jpg"
+  },
+  {
+    "nombre": "Selenita terapéutica",
+    "categoria": "dijes",
+    "descripcion": "Selenita terapéutica en dije, piedra de limpieza y claridad energética. Con cadena completa: $16.000.",
+    "precio": "$6.000",
+    "intencion": "claridad",
+    "imagen": "/images/productos/selenita-terapeutica-1.jpg"
+  },
+  {
+    "nombre": "Selenita en varitas",
+    "categoria": "dijes",
+    "descripcion": "Set de varitas de selenita en bruto, para limpieza y claridad energética.",
+    "precio": "$15.000",
+    "intencion": "claridad",
+    "imagen": "/images/productos/selenita-en-varitas-1.jpg"
+  },
+  {
+    "nombre": "Dijes cuarzos con información",
+    "categoria": "dijes",
+    "descripcion": "Dijes de cuarzo con tarjeta informativa sobre su significado.",
+    "precio": "$6.000",
+    "intencion": "claridad",
+    "imagen": null
+  },
+  {
+    "nombre": "Dije Virgen de Guadalupe",
+    "categoria": "dijes",
+    "descripcion": "Dije de la Virgen de Guadalupe, para protección y fe.",
+    "precio": "$14.250",
+    "intencion": "proteccion",
+    "imagen": null
+  },
+  {
+    "nombre": "Dije turmalina negra",
+    "categoria": "dijes",
+    "descripcion": "Dije de turmalina negra en bruto, piedra de protección. Precio del dije solo; la cadena se cotiza aparte según el modelo.",
+    "precio": "$8.000",
+    "intencion": "proteccion",
+    "imagen": "/images/productos/dije-turmalina-negra-1.jpg"
+  },
+  {
+    "nombre": "Medalla de San Benito",
+    "categoria": "dijes",
+    "descripcion": "Medalla de San Benito, protección tradicional contra las energías negativas.",
+    "precio": "$5.000",
+    "intencion": "proteccion",
+    "imagen": null
+  },
+  {
+    "nombre": "Espada de San Miguel Arcángel",
+    "categoria": "dijes",
+    "descripcion": "Espada de San Miguel Arcángel, símbolo de protección y fuerza espiritual.",
+    "precio": "$6.000",
+    "intencion": "proteccion",
+    "imagen": "/images/productos/espada-san-miguel-arcangel-1.jpg"
+  }
 ]

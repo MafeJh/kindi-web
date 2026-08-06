@@ -152,6 +152,30 @@
     "imagen": "/images/productos/manilla-arcangel-rafael-1.jpg"
   },
   {
+    "nombre": "Manilla arcángel Miguel",
+    "categoria": "manillas",
+    "descripcion": "Manilla en cristal azul con dije de cruz y medalla del arcángel Miguel, para protección.",
+    "precio": "$12.750",
+    "intencion": "proteccion",
+    "imagen": "/images/productos/manilla-arcangel-miguel-2.jpg"
+  },
+  {
+    "nombre": "Manilla arcángel Zadquiel",
+    "categoria": "manillas",
+    "descripcion": "Manilla en amatista con dije de cruz y medalla del arcángel Zadquiel, para el perdón y la transformación.",
+    "precio": "$12.750",
+    "intencion": "calma",
+    "imagen": "/images/productos/manilla-arcangel-zadquiel-1.jpg"
+  },
+  {
+    "nombre": "Manilla arcángel Gabriel",
+    "categoria": "manillas",
+    "descripcion": "Manilla en cristal opalino con dije de cruz y medalla del arcángel Gabriel, para la claridad.",
+    "precio": "$12.750",
+    "intencion": "claridad",
+    "imagen": "/images/productos/manilla-arcangel-gabriel-1.jpg"
+  },
+  {
     "nombre": "Manilla Guadalupe dorada, hilo rojo",
     "categoria": "manillas",
     "descripcion": "Manilla de hilo rojo con medalla dorada de la Virgen de Guadalupe.",
@@ -216,6 +240,22 @@
     "imagen": "/images/productos/anillo-dorado-ajustable-cuarzos-rosa.jpg"
   },
   {
+    "nombre": "Set covergold piedra negra (gota)",
+    "categoria": "sets",
+    "descripcion": "Set de collar y aretes en cover gold con piedra negra en corte gota, rodeada de cristales.",
+    "precio": "$48.000",
+    "intencion": null,
+    "imagen": "/images/productos/set-covergold-piedra-negra-gota.jpg"
+  },
+  {
+    "nombre": "Set covergold piedra roja (ovalada)",
+    "categoria": "sets",
+    "descripcion": "Set de collar y aretes en cover gold con piedra roja ovalada, rodeada de cristales.",
+    "precio": "$48.000",
+    "intencion": null,
+    "imagen": "/images/productos/set-covergold-piedra-roja-ovalada.jpg"
+  },
+  {
     "nombre": "Set ojo de tigre",
     "categoria": "sets",
     "descripcion": "Set de aretes y manilla en ojo de tigre, para protección.",
@@ -258,10 +298,10 @@
   {
     "nombre": "Pirita",
     "categoria": "dijes",
-    "descripcion": "Piedra pirita, conocida como la piedra de la abundancia.",
-    "precio": "$14.000",
+    "descripcion": "Piedra pirita, conocida como la piedra de la abundancia. Dije solo; con cadena completa: $15.000.",
+    "precio": "$5.000",
     "intencion": "abundancia",
-    "imagen": null
+    "imagen": "/images/productos/pirita-1.jpg"
   },
   {
     "nombre": "Cuarzo rosa",
@@ -306,21 +346,40 @@
   {
     "nombre": "Cristales terapéuticos",
     "categoria": "dijes",
-    "descripcion": "Cristales terapéuticos en distintas presentaciones, ideales para tu altar, bolsillo o para llevar contigo.",
+    "descripcion": "Cristales rústicos sueltos, ideales para tu altar o bolsillo.",
+    "precio": "$450",
     "intencion": "claridad",
-    "imagen": "/images/productos/cristales-terapeuticos-1.jpg",
-    "variantes": [
-      {
-        "nombre": "Sueltos",
-        "precio": "$450",
-        "descripcion": "Mini cristales terapéuticos sueltos, ideales para tu altar o bolsillo."
-      },
-      {
-        "nombre": "Pulidos",
-        "precio": "$4.500",
-        "descripcion": "Cristales terapéuticos pulidos, listos para llevar contigo.",
-        "imagen": "/images/productos/cristales-terapeuticos-pulidos-1.jpg"
-      }
+    "imagen": "/images/productos/cristales-terapeuticos-sodalita.jpg",
+    "galeria": [
+      "/images/productos/cristales-terapeuticos-citrino.jpg",
+      "/images/productos/cristales-terapeuticos-lluvia-estrellas.jpg",
+      "/images/productos/cristales-terapeuticos-rustico-4.jpg",
+      "/images/productos/cristales-terapeuticos-rustico-5.jpg",
+      "/images/productos/cristales-terapeuticos-rustico-6.jpg",
+      "/images/productos/cristales-terapeuticos-rustico-7.jpg",
+      "/images/productos/cristales-terapeuticos-rustico-8.jpg",
+      "/images/productos/cristales-terapeuticos-rustico-9.jpg",
+      "/images/productos/cristales-terapeuticos-rustico-10.jpg",
+      "/images/productos/cristales-terapeuticos-rustico-11.jpg",
+      "/images/productos/cristales-terapeuticos-rustico-12.jpg",
+      "/images/productos/cristales-terapeuticos-rustico-13.jpg"
+    ]
+  },
+  {
+    "nombre": "Cristales terapéuticos pulidos",
+    "categoria": "dijes",
+    "descripcion": "Cristales terapéuticos pulidos, listos para llevar contigo.",
+    "precio": "$4.500",
+    "intencion": "claridad",
+    "imagen": "/images/productos/cristales-terapeuticos-pulidos-1.jpg",
+    "galeria": [
+      "/images/productos/cristales-terapeuticos-pulidos-malaquita.jpg",
+      "/images/productos/cristales-terapeuticos-pulidos-2.jpg",
+      "/images/productos/cristales-terapeuticos-pulidos-3.jpg",
+      "/images/productos/cristales-terapeuticos-pulidos-4.jpg",
+      "/images/productos/cristales-terapeuticos-pulidos-5.jpg",
+      "/images/productos/cristales-terapeuticos-pulidos-6.jpg",
+      "/images/productos/cristales-terapeuticos-pulidos-7.jpg"
     ]
   },
   {

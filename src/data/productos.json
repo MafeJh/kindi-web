@@ -221,7 +221,8 @@
     "descripcion": "Anillo con cuarzo transparente en bruto envuelto en alambre dorado, para claridad.",
     "precio": "$18.000",
     "intencion": "claridad",
-    "imagen": "/images/productos/anillo-cuarzo-transparente-1.jpg"
+    "imagen": "/images/productos/anillo-cuarzo-transparente-1.jpg",
+    "tags": ["cuarzos"]
   },
   {
     "nombre": "Anillo siete chakras",
@@ -237,7 +238,8 @@
     "descripcion": "Anillo dorado ajustable con cuarzos, energía en un solo diseño.",
     "precio": "$12.000",
     "intencion": "vitalidad",
-    "imagen": "/images/productos/anillo-dorado-ajustable-cuarzos-rosa.jpg"
+    "imagen": "/images/productos/anillo-dorado-ajustable-cuarzos-rosa.jpg",
+    "tags": ["cuarzos"]
   },
   {
     "nombre": "Set covergold piedra negra (gota)",
@@ -274,18 +276,10 @@
   {
     "nombre": "Set mariposas covergold",
     "categoria": "sets",
-    "descripcion": "Set de aretes y manilla con mariposas en cover gold.",
-    "precio": "$34.500",
+    "descripcion": "Set de aretes y cadena de mariposas en cover gold.",
+    "precio": "$50.000",
     "intencion": null,
-    "imagen": null
-  },
-  {
-    "nombre": "Set covergold piedras verde, roja y negra",
-    "categoria": "sets",
-    "descripcion": "Set en cover gold con piedras en verde, rojo y negro.",
-    "precio": "$48.000",
-    "intencion": null,
-    "imagen": null
+    "imagen": "/images/productos/set-mariposas-covergold-1.png"
   },
   {
     "nombre": "Turquesa",
@@ -309,7 +303,8 @@
     "descripcion": "Cuarzo rosa en bruto, piedra del amor propio.",
     "precio": "$10.000",
     "intencion": "amor",
-    "imagen": null
+    "imagen": null,
+    "tags": ["cuarzos"]
   },
   {
     "nombre": "Jade",
@@ -344,12 +339,13 @@
     "imagen": "/images/productos/dije-angel-amatista-1.jpg"
   },
   {
-    "nombre": "Cristales terapéuticos",
+    "nombre": "Cristales terapéuticos Rústicos",
     "categoria": "dijes",
     "descripcion": "Cristales rústicos sueltos, ideales para tu altar o bolsillo.",
     "precio": "$450",
     "intencion": "claridad",
     "imagen": "/images/productos/cristales-terapeuticos-sodalita.jpg",
+    "tags": ["cuarzos"],
     "galeria": [
       "/images/productos/cristales-terapeuticos-citrino.jpg",
       "/images/productos/cristales-terapeuticos-lluvia-estrellas.jpg",
@@ -372,6 +368,7 @@
     "precio": "$4.500",
     "intencion": "claridad",
     "imagen": "/images/productos/cristales-terapeuticos-pulidos-1.jpg",
+    "tags": ["cuarzos"],
     "galeria": [
       "/images/productos/cristales-terapeuticos-pulidos-malaquita.jpg",
       "/images/productos/cristales-terapeuticos-pulidos-2.jpg",
@@ -388,7 +385,8 @@
     "descripcion": "Cuarzo rosa terapéutico, piedra del amor propio.",
     "precio": "$3.000",
     "intencion": "amor",
-    "imagen": null
+    "imagen": null,
+    "tags": ["cuarzos"]
   },
   {
     "nombre": "Dije obsidiana grande",
@@ -409,10 +407,11 @@
   {
     "nombre": "Cuarzo cristal y siete chakras",
     "categoria": "dijes",
-    "descripcion": "Dije de cuarzo cristal con los siete chakras, energía vital.",
+    "descripcion": "Dije con base de cuarzo cristal, de la que cuelgan las siete piedras de los chakras, energía vital.",
     "precio": "$26.700",
     "intencion": "vitalidad",
-    "imagen": "/images/productos/cuarzo-cristal-siete-chakras-1.jpg"
+    "imagen": "/images/productos/cuarzo-cristal-siete-chakras-1.jpg",
+    "tags": ["cuarzos"]
   },
   {
     "nombre": "Selenita terapéutica",
@@ -436,7 +435,8 @@
     "descripcion": "Dijes de cuarzo con tarjeta informativa sobre su significado.",
     "precio": "$6.000",
     "intencion": "claridad",
-    "imagen": null
+    "imagen": null,
+    "tags": ["cuarzos"]
   },
   {
     "nombre": "Dije Virgen de Guadalupe",

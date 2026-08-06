@@ -1,6 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import productos from '../data/productos.json';
+import todosLosProductos from '../data/productos.json';
+
+// Ocultar piezas sin foto hasta que se entregue la imagen.
+const productos = todosLosProductos.filter(p => p.imagen);
 
 const categorias = [
   { key: 'todos', label: 'Todos', icon: '<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>' },
@@ -10,6 +13,7 @@ const categorias = [
   { key: 'anillos', label: 'Anillos', icon: '<circle cx="12" cy="14" r="6"/><path d="M9 8l3-4 3 4"/>' },
   { key: 'sets', label: 'Sets', icon: '<circle cx="9" cy="12" r="5"/><circle cx="15" cy="12" r="5"/>' },
   { key: 'dijes', label: 'Dijes', icon: '<path d="M12 3a5 5 0 015 5c0 4-5 9-5 9s-5-5-5-9a5 5 0 015-5z"/><circle cx="12" cy="8" r="1.3"/>' },
+  { key: 'cuarzos', label: 'Cuarzos', icon: '<path d="M6 3h12l4 6-10 12L2 9z"/><path d="M2 9h20M9 3l-2.5 6 5.5 12 5.5-12L15 3"/>' },
 ];
 
 const catLabels = {
@@ -58,7 +62,7 @@ const intentIcons = {
 
     <div class="grid" id="grid">
       {productos.map(p => (
-        <div class="card" data-cat={p.categoria} data-search={`${p.nombre} ${p.descripcion} ${p.intencion || ''}`.toLowerCase()}>
+        <div class="card" data-cat={[p.categoria, ...(p.tags || [])].join(' ')} data-search={`${p.nombre} ${p.descripcion} ${p.intencion || ''}`.toLowerCase()}>
           <div class="thumb" style={`background:${p.intencion ? 'var(--sage-pale)' : 'var(--gold-pale)'}`}>
             {p.intencion && <div class="intent-chip">{p.intencion}</div>}
             {p.imagen ? (
@@ -103,7 +107,7 @@ const intentIcons = {
   function applyFilter() {
     let visible = 0;
     cards.forEach(card => {
-      const catOk = activeCat === 'todos' || card.dataset.cat === activeCat;
+      const catOk = activeCat === 'todos' || card.dataset.cat.split(' ').includes(activeCat);
       const q = query.trim().toLowerCase();
       const qOk = !q || card.dataset.search.includes(q);
       const show = catOk && qOk;

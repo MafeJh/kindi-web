@@ -200,6 +200,40 @@
     "imagen": "/images/productos/set-manillas-perla-dorada-con-hoja-1.jpg"
   },
   {
+    "nombre": "Tobillera virgen",
+    "categoria": "manillas",
+    "descripcion": "Tobillera dorada con dijes de cuarzos de colores y medalla de la Virgen, para protección.",
+    "precio": "$20.000",
+    "intencion": "proteccion",
+    "imagen": "/images/productos/tobillera_cuarzos_virgen.png",
+    "tags": ["cuarzos"]
+  },
+  {
+    "nombre": "Pulsera cruz morada",
+    "categoria": "manillas",
+    "descripcion": "Pulsera ajustable dorada con dije de cruz en amatista, para la calma.",
+    "precio": "$16.000",
+    "intencion": "calma",
+    "imagen": "/images/productos/pulsera_cruz_morada.jpg"
+  },
+  {
+    "nombre": "Pulsera cruz verde",
+    "categoria": "manillas",
+    "descripcion": "Pulsera ajustable dorada con dije de cruz verde, para la abundancia.",
+    "precio": "$16.000",
+    "intencion": "abundancia",
+    "imagen": "/images/productos/pulsera_cruz_verde.jpg"
+  },
+  {
+    "nombre": "Pulsera corazón cuarzo",
+    "categoria": "manillas",
+    "descripcion": "Pulsera ajustable dorada con dije de corazón en ojo de tigre, para protección.",
+    "precio": "$15.000",
+    "intencion": "proteccion",
+    "imagen": "/images/productos/pulsera_cuarzo_en_corazon.jpg",
+    "tags": ["cuarzos"]
+  },
+  {
     "nombre": "Anillo turmalina",
     "categoria": "anillos",
     "descripcion": "Anillo con turmalina, piedra de protección energética.",

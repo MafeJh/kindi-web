@@ -211,17 +211,17 @@
   {
     "nombre": "Pulsera cruz morada",
     "categoria": "manillas",
-    "descripcion": "Pulsera ajustable dorada con dije de cruz en amatista, para la calma.",
+    "descripcion": "Pulsera ajustable dorada con dije de cruz en amatista, para protección.",
     "precio": "$16.000",
-    "intencion": "calma",
+    "intencion": "proteccion",
     "imagen": "/images/productos/pulsera_cruz_morada.jpg"
   },
   {
     "nombre": "Pulsera cruz verde",
     "categoria": "manillas",
-    "descripcion": "Pulsera ajustable dorada con dije de cruz verde, para la abundancia.",
+    "descripcion": "Pulsera ajustable dorada con dije de cruz verde, para protección.",
     "precio": "$16.000",
-    "intencion": "abundancia",
+    "intencion": "proteccion",
     "imagen": "/images/productos/pulsera_cruz_verde.jpg"
   },
   {
